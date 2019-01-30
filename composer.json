@@ -1,0 +1,24 @@
+{
+    "name": "yang/test-package",
+    "description": "Third party message composer",
+    "authors": [
+        {
+            "name": "Yang Liu"
+        }
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yang\\Composer\\": "src/"
+        }
+    }
+}
